@@ -22,7 +22,8 @@ var adList = [
     document.getElementsByClassName('adsByIdn32409'),
     document.getElementsByClassName('daum_ddn_area'),
     document.getElementById('list_right_ad'),
-    document.getElementById('wif_adx_banner_wrap')
+    document.getElementById('wif_adx_banner_wrap'),
+    document.getElementById('ad-layer')
 ];
 
 temp(adList);
