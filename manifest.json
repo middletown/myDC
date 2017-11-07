@@ -17,7 +17,12 @@
 
     "content_scripts": [{
         "matches": ["http://gall.dcinside.com/*"],
-        "js": ["scripts/adBlock.js"]
+        "js": [
+            "scripts/jquery-2.2.4.min.js",
+            "scripts/util.js",
+            "scripts/adBlock.js",
+            "scripts/reloadArticle.js"
+        ]
     }],
 
     "permissions": [
